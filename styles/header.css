@@ -1,5 +1,7 @@
 .header{
-   background-color: #333; 
+   background-color: #333;
+   padding-top: 20px;
+   /* display: relative; */
 }
 
 *{
@@ -22,13 +24,17 @@ body{
 .brand-title{
     font-size: 1.5rem;
     margin: .5em;
-
+    display: absolute;
+   
 }
+
+
 
 .navbar-links ul{
     margin: 0;
     padding: 0;
-    display: flex
+    display: flex;
+    
 }
 
 .navbar-links ul li {
@@ -49,8 +55,8 @@ body{
 
 .toggle-button{
     position: absolute;
-    top:.75em;
-    right: 1rem;
+    /* top: 10px;
+    right: 10px; */
     display: none;
     /* display: flex; */
     flex-direction: column;
@@ -71,11 +77,60 @@ body{
 
 
 @media (max-width: 600px){
+
     .toggle-button{
         display: flex;
+        top: 10px;
+        right: 10px;
 
     }
     .navbar-links{
         display: none;
+       
     }
+
+    .navbar-toggle-div{
+        width: 100%;
+        
+    }
+
+    .navbar-links ul{
+        width: 100%;
+        display: block;
+    
+    }
+
+    .navbar-links ul li {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        
+
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+        
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem
+        
+    }
+
+    .navbar-links.active{
+        display: flex;
+    }
+
+
+
+
+
+
+
 }

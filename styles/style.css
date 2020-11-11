@@ -19,18 +19,20 @@ body{
     height: 100vh;
     width:100%;
     grid-template-columns: 1fr;
-    grid-template-rows: 150px 1fr 200px;
+    grid-template-rows: 1fr 1fr 200px;
     grid-template-areas: 
-    "header header"
-    "main main"
-    "footer footer";
+    "header"
+    "main"
+    "footer";
 }
 
 
 
 .header{
     grid-area: header;
-    /* background-color: aquamarine; */
+   
+
+
 }
 
 
@@ -63,7 +65,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 10px;
-    padding: 200px;
+    
 }
 
 .skill-sec{
@@ -94,4 +96,19 @@ body{
 .footer{
     grid-area: footer;
     background-color: black;
+}
+
+
+
+
+@media (max-width: 600px) {
+    .project-sec{
+        grid-area: projects;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 10px;
+        
+    }
+
+
 }
