@@ -1,7 +1,6 @@
 .header{
    background-color: #333;
    padding-top: 20px;
-   /* display: relative; */
 }
 
 *{
@@ -76,6 +75,8 @@ body{
 }
 
 
+
+/* @media query on small viewport  */
 @media (max-width: 600px){
 
     .toggle-button{
@@ -126,10 +127,6 @@ body{
     .navbar-links.active{
         display: flex;
     }
-
-
-
-
 
 
 
