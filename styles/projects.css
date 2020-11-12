@@ -9,9 +9,42 @@
     
 }
 
+.project-sec div figure ul li{
+    list-style: none;
+    
+}
+
 .project-sec div img {
  max-width: 190px;
  margin: 10px;
+
+}
+
+
+.project-sec .project-link a { 
+    padding: 5px;
+    margin: 10px;
+    background-color: #00a2ff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.5em;
+    box-shadow: 0 5px 5px 0 #797c7e;
+
+}
+
+
+.project-sec .project-link a:hover { 
+    background-color: #10f523;
+   
+
+}
+
+
+@media(max-width: 900px){
+    .project-sec div figure{
+        display: block;
+        
+    }
 
 }
 
