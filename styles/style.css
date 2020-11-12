@@ -46,7 +46,7 @@ body{
     grid-area: main;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 70vh 1fr 1fr 400px 400px;
+    grid-template-rows: 70vh 2fr 1fr 400px 400px;
     grid-template-areas: 
     "introduction"
     "projects"

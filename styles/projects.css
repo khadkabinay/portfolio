@@ -6,11 +6,23 @@
     border-radius: 5px;
 }
 
-.project-sec div figure{
+.word-game figure{
     display: flex;
-    
+    flex-direction: row;
+
     
 }
+
+.word-game figure img{
+    max-width: 375px;
+    
+}
+
+
+
+.word-game figure figcaption {
+    justify-self: end;
+} 
 
 .project-sec div figure ul li{
     list-style: none;
@@ -18,8 +30,8 @@
 }
 
 .project-sec div img {
- max-width: 190px;
- margin: 10px;
+    padding: 10px;
+
 
 }
 
@@ -27,16 +39,17 @@
 .project-link {
     margin-top: 10px;
     padding: 10px;
+    
 }
 
 
 .project-sec .project-link a { 
     padding: 5px;
-    margin: 10px;
+    margin: 15px;
     background-color: #00a2ff;
     border-radius: 5px;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.2em;
     box-shadow: 0 5px 5px 0 #797c7e;
 
 }
@@ -44,11 +57,9 @@
 
 .project-sec .project-link a:hover { 
     background-color: #10f523;
-   
+
 
 }
-
-
 
 
 @media(max-width: 1000px){
