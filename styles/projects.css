@@ -1,11 +1,14 @@
 .project-sec div{
-    padding: 5px;
-    background-color: blanchedalmond;
+    padding: 7px;
+    background-color: rgba(47, 131, 180, 0.2);
     margin: 10px;
+    box-shadow: 0 5px 4px 0 #585c5f;
+    border-radius: 5px;
 }
 
 .project-sec div figure{
     display: flex;
+    
     
 }
 
@@ -18,6 +21,12 @@
  max-width: 190px;
  margin: 10px;
 
+}
+
+
+.project-link {
+    margin-top: 10px;
+    padding: 10px;
 }
 
 
@@ -40,7 +49,9 @@
 }
 
 
-@media(max-width: 900px){
+
+
+@media(max-width: 1000px){
     .project-sec div figure{
         display: block;
         
