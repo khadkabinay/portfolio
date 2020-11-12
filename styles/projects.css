@@ -1,0 +1,17 @@
+.project-sec div{
+    padding: 5px;
+    background-color: blanchedalmond;
+    margin: 10px;
+}
+
+.project-sec div figure{
+    display: flex;
+    
+}
+
+.project-sec div img {
+ max-width: 190px;
+ margin: 10px;
+
+}
+
