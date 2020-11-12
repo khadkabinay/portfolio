@@ -1,0 +1,44 @@
+.intro-about{
+    position: absolute;
+    top: 35%;
+    left: 29%;
+    width: 42%;
+    color: white;
+    background-color: rgba(236, 10, 47, 0.02);
+    box-shadow: 0 5px 10px 0  #08f5431a;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: .9px;
+    font-size: 20px;
+    
+
+}
+
+.intro-about a {
+    padding: 5px;
+    background: linear-gradient(to bottom, #33ccff 0%, #e6acc9 100%);
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 0  #1c3340e3;
+}
+
+.intro-about a:hover {
+    padding: 5px;
+    background: linear-gradient(to bottom,#cf9db6 0%, #33ccff 100%);
+    text-decoration: none;
+    color:#fff;
+    
+    
+}
+
+
+@media(max-width: 600px){
+    
+    .intro-about{
+        position: relative;
+        top: 25%;
+        left: 30%;
+    
+    }
+}

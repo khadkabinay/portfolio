@@ -1,5 +1,5 @@
 .header{
-   background-color: #333;
+   background-color: #2b3555;
    padding-top: 20px;
 }
 
@@ -24,6 +24,7 @@ body{
     font-size: 1.5rem;
     margin: .5em;
     display: absolute;
+    font-family: 'Pacifico', cursive;
    
 }
 
@@ -38,19 +39,27 @@ body{
 
 .navbar-links ul li {
     list-style: none;
+   
 }
+
 
 .navbar-links ul li a {
     text-decoration: none;
     color: #fff;
-    padding: 1rem;
     display: block;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    background: linear-gradient(to bottom, #33ccff 0%, #7d62f3 100%);
+
+    
 }
 
-
-.navbar-links li:hover{
-    background-color: grey;
+.navbar-links ul li a:hover{
+    color: #000;
 }
+
 
 .toggle-button{
     position: absolute;
@@ -102,7 +111,7 @@ body{
     }
 
     .navbar-links ul li {
-        margin-bottom: 5px;
+        margin-bottom: 7px;
         text-align: center;
     }
 
