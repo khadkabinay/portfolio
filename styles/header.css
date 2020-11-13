@@ -21,11 +21,12 @@ body{
 }
 
 .brand-title{
-    font-size: 1.7rem;
+    font-size: 1.9em;
     margin: .5em;
     display: absolute;
     font-family: 'Playball', cursive; 
-   
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 

@@ -1,0 +1,18 @@
+.resume-sec{
+    text-align: center;
+    background-color: rgba(241, 247, 248, 0.1);
+    
+}
+
+.resume-sec a {
+    font-size: 1.8em;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #9da2a3;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px 0 #9da2a3;;
+}
+
+.resume-sec a:hover{
+    color: #fff;
+}
