@@ -1,6 +1,7 @@
 .header{
    background-color: #2b3555;
    padding-top: 20px;
+   
 }
 
 *{
@@ -17,6 +18,7 @@ body{
     justify-content: space-between;
     align-items: center;
     color: #fff;
+
     
 }
 
@@ -63,12 +65,14 @@ body{
 
 
 .toggle-button{
-    position: absolute;
+    position: fixed;
     display: none;
     flex-direction: column;
     justify-content: space-between;
     width: 40px;
     height: 25px;
+    border: 1px solid #0d0d27;
+    border-radius: 5px;
   
 
 }
