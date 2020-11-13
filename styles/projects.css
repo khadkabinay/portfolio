@@ -46,11 +46,11 @@
 .project-sec .project-link a { 
     padding: 5px;
     margin: 15px;
-    background-color: #00a2ff;
     border-radius: 5px;
     text-decoration: none;
     font-size: 1.2em;
     box-shadow: 0 5px 5px 0 #797c7e;
+    border: 1px solid grey;
 
 }
 
@@ -60,6 +60,8 @@
 
 
 }
+
+
 
 
 @media(max-width: 1000px){

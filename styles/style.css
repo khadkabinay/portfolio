@@ -3,6 +3,7 @@
 @import url('./skill.css');
 @import url('./intro.css');
 @import url('./projects.css');
+@import url('./about.css');
 
 
 
@@ -14,7 +15,6 @@
 
 body{
     background: linear-gradient(to right, #8e9eab , #eef2f3);
-    /* background-color: #97f80666; */
     font-family: 'Teko', sans-serif;
   
 }
@@ -46,7 +46,7 @@ body{
     grid-area: main;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 70vh 2fr 1fr 400px 400px;
+    grid-template-rows: 70vh 2fr 1fr 1fr 400px;
     grid-template-areas: 
     "introduction"
     "projects"
